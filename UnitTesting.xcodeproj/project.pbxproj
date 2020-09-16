@@ -16,6 +16,7 @@
 		F2B91D9A2511C5BF00A32910 /* UnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B91D992511C5BF00A32910 /* UnitTestingTests.swift */; };
 		F2B91DA52511C5BF00A32910 /* UnitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B91DA42511C5BF00A32910 /* UnitTestingUITests.swift */; };
 		F2B91DB32511C80000A32910 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B91DB22511C80000A32910 /* PlayData.swift */; };
+		F2B91DB52511CD1100A32910 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2B91DB42511CD1100A32910 /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F2B91DA42511C5BF00A32910 /* UnitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITests.swift; sourceTree = "<group>"; };
 		F2B91DA62511C5BF00A32910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B91DB22511C80000A32910 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
+		F2B91DB42511CD1100A32910 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		F2B91D812511C5BE00A32910 /* UnitTesting */ = {
 			isa = PBXGroup;
 			children = (
+				F2B91DB42511CD1100A32910 /* plays.txt */,
 				F2B91D822511C5BE00A32910 /* AppDelegate.swift */,
 				F2B91D842511C5BE00A32910 /* SceneDelegate.swift */,
 				F2B91D862511C5BE00A32910 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B91DB52511CD1100A32910 /* plays.txt in Resources */,
 				F2B91D8F2511C5BF00A32910 /* LaunchScreen.storyboard in Resources */,
 				F2B91D8C2511C5BF00A32910 /* Assets.xcassets in Resources */,
 				F2B91D8A2511C5BE00A32910 /* Main.storyboard in Resources */,
